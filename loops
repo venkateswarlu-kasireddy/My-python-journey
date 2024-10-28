@@ -1,0 +1,8 @@
+Finding the exact location of a number in a given tupple :
+ums = (1, 2, 3, 4, 5, 6, 7)
+x = 5 
+i = 0
+while i < len(nums):
+    if(nums[i] == x):
+        print("fount at indx:" , i)
+    i += 1
